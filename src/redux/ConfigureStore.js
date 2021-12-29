@@ -6,7 +6,7 @@ import logger from "redux-logger";
 export const ConfigureStore = () => {
     const store = createStore(
         combineReducers({
-            Staff: Staff,
+            Staffs: Staff,
             }),
             applyMiddleware(thunk, logger)
     );

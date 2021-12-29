@@ -1,6 +1,6 @@
 import * as ActionType from './ActionType'
 
-export const fectstaff = (dispatch) => {
+export const fectstaff = () =>  (dispatch) => {
     return fetch('https://rjs101xbackend.herokuapp.com/staffs')
     .then(
         (response) => {
